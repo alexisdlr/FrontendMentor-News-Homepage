@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        margin-top: 2rem;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <header>
+        <nav>
+          <div>
+            <img src="./assets/images/logo.svg" alt="logo" />
+          </div>
+          <ul id="nav">
+            <li class="link">
+              <a href="#">Home</a>
+            </li>
+            <li class="link">
+              <a href="#">New</a>
+            </li>
+            <li class="link">
+              <a href="#">Popular</a>
+            </li>
+            <li class="link">
+              <a href="#"> Trending </a>
+            </li>
+            <li class="link">
+              <a href="#">Categories</a>
+            </li>
+          </ul>
+          <span class="button">
+            <button id="button">
+              <img id='icon' src="./assets/images/icon-menu.svg" alt="btn menu" />
+            </button>
+          </span>
+          
+        </nav>
+      </header>
+
+      <section class="main-content">
+        <article>
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="img" />
+          <div class="container">
+            <div>
+              <h1>
+                The Bright <br />
+                Future of <br />
+                Web 3.0? <br />
+              </h1>
+            </div>
+            <div class="card">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <div>
+                <button>Read more</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="left-card">
+          <h2>New</h2>
+          <div class="quote">
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <hr />
+          <div class="quote">
+            <h3>The Downsides of AI Artistry</h3>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <hr />
+          <div class="quote">
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="bottom-content">
+        <div class="card">
+          <img src="./assets/images/image-retro-pcs.jpg" />
+          <div class="card-content">
+            <span>01</span>
+            <div class="text">
+              <h4>Reviving Retro PCs</h4>
+              <p>What happens when old PCs are given modern upgrades?</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/image-top-laptops.jpg" />
+          <div class="card-content" >
+            <span>02</span>
+            <div class="text">
+              <h4>Top 10 Laptops of 2022</h4>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/image-gaming-growth.jpg" />
+          <div class="card-content">
+            <span>03</span>
+            <div class="text">
+              <h4>The Growth of Gaming</h4>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+
+            </div>
+          
+          </div>
+        </div>
+      </section>
+      
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Alexis De León</a>.
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
